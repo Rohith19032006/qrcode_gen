@@ -1,0 +1,29 @@
+h1{
+    text-align: center; 
+    color:rgb(1, 0, 0); 
+    font-family:monospace; 
+    font-size:50px;
+}
+h2{
+    text-align: center; 
+    color:rgb(1, 0, 0); 
+    font-family:monospace; 
+    font-size:50px;"
+}
+
+button{
+    background-color: rgb(232, 16, 16);
+    color:rgb(255, 253, 253); 
+    font-size:28px;
+    font-family:cursive; border-radius:55px; 
+    padding-block: 0.5px;
+}
+
+body{
+    background-image: url('/static/IMAGE.png');
+}
+input{
+    text-align: center; 
+    font-family:cursive; 
+    font-size:25px;
+}

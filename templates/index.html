@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+</head>
+<body >
+    <br><br>
+    <i><b><h1>Keerthi Creation's</h1></b></i>
+    <i><b><h2>QR code generator</h2></b></i>
+    <center><form action="/generate_qr" method="POST">
+    <input type="text" name="url" placeholder="Enter URL" required></center><br><br>
+    <center><button type="submit">Generate QR Code</button></center>
+    </form>
+</body>
+</html>
